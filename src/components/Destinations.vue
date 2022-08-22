@@ -1,4 +1,5 @@
 <!-- eslint-disable -->
+<!-- Destinations -->
 <template>
   <div id="Destinations" class="destinations">
     <div class="title">

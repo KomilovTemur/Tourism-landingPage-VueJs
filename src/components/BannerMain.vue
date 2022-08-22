@@ -1,5 +1,5 @@
 <template>
-
+<!-- banner -->
     <div class="banner">
       <nav>
         <div class="logo">
