@@ -37,13 +37,14 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 .destinations {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 80px;
 }
 
 .destinations>.title {

@@ -69,7 +69,7 @@
 </template>
 
 
-<style>
+<style scoped>
 .banner {
   position: relative;
   top: 0;

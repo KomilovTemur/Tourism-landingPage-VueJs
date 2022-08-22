@@ -14,14 +14,19 @@
       </p>
       <div class="row">
         <div class="col-md-6">
-          <div class="cart box domestic">
-            <h2>For Domestic</h2>
-            <a href="#">Start trip taday</a>
+          <div class="cart domestic">
+            <div class="box">
+              <h2>For Domestic</h2>
+              <a href="#">Start trip taday</a>
+            </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="cart box international">
-
+          <div class="cart international">
+            <div class="box">
+              <h2>For International</h2>
+              <a href="#">Start trip taday</a>
+            </div>
           </div>
         </div>
       </div>
@@ -33,6 +38,8 @@
 </script>
 
 <style scoped>
+
+
 /* Events */
 
 .events {
@@ -61,5 +68,57 @@
   color: #2C2D32;
 }
 
-.domestic {}
+.cart {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.domestic {
+  background-image: url('../assets/images/domestic.png');
+}
+
+.international {
+  background-image: url('../assets/images/international.png');
+}
+
+.cart>.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #7f2736e0;
+  color: #fff;
+}
+
+.cart>.box>h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.cart>.box>a {
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 80px;
+  width: 283px;
+  height: 80px;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  transition: all 0.5s ease;
+}
+
+.cart>.box>a:hover {
+  transform: scale(1.1);
+  font-size: 25px;
+}
 </style>
