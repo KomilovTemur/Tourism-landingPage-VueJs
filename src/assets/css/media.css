@@ -1,3 +1,5 @@
+
+/* for mobile */
 @media (max-width: 1200px) {
     nav > .navLinks {
       display: none;
@@ -6,3 +8,4 @@
       display: none;
     }
 }
+
